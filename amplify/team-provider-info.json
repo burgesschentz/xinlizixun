@@ -13,7 +13,11 @@
     },
     "categories": {
       "auth": {
-        "xinlizixun4ea2334a": {}
+        "xinlizixun4ea2334a": {},
+        "xinlizixun0ac1cca4": {}
+      },
+      "api": {
+        "xinlizixun": {}
       }
     }
   }
