@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/send/gpt": {
+      "name": "/send/gpt",
+      "lambdaFunction": "GetGptResp",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

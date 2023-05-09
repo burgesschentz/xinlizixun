@@ -1,5 +1,19 @@
 {
   "api": {
+    "gpt": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "GetGptResp"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
     "xinlizixun": {
       "dependsOn": [],
       "output": {
@@ -43,6 +57,36 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
+    }
+  },
+  "function": {
+    "GetGptResp": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "getChatGptResponse": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_getChatGptResponse_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getChatGptResponse"
+        }
+      ]
+    },
+    "AMPLIFY_function_getChatGptResponse_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getChatGptResponse"
+        }
+      ]
     }
   }
 }
