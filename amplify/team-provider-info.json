@@ -17,14 +17,14 @@
         "xinlizixun0ac1cca4": {}
       },
       "api": {
-        "xinlizixun": {}
+        "xinlizixun": {},
+        "gpt": {}
       },
       "function": {
-        "getChatGptResponse": {
+        "GetGptResp": {
           "deploymentBucketName": "amplify-amplify74b6f2cdd1e24-staging-140015-deployment",
-          "s3Key": "amplify-builds/getChatGptResponse-6f705676626f74783356-build.zip"
-        },
-        "GetGptResp": {}
+          "s3Key": "amplify-builds/GetGptResp-6b557733455a446a6565-build.zip"
+        }
       }
     }
   }

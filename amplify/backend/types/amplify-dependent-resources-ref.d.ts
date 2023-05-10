@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "api": {
-    "chatgpt": {
+    "gpt": {
       "ApiId": "string",
       "ApiName": "string",
       "RootUrl": "string"
@@ -23,7 +23,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "function": {
-    "getChatGptResponse": {
+    "GetGptResp": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",

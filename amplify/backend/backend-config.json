@@ -64,27 +64,22 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
-    },
-    "getChatGptResponse": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_getChatGptResponse_deploymentBucketName": {
+    "AMPLIFY_function_GetGptResp_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "getChatGptResponse"
+          "resourceName": "GetGptResp"
         }
       ]
     },
-    "AMPLIFY_function_getChatGptResponse_s3Key": {
+    "AMPLIFY_function_GetGptResp_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "getChatGptResponse"
+          "resourceName": "GetGptResp"
         }
       ]
     }
